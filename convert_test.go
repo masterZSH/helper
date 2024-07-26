@@ -18,8 +18,6 @@ func TestNilSliceToEmptySlice(t *testing.T) {
 	assert.Equal(t, "[]", r)
 }
 
-
-
 // BenchmarkSliceByteToString-8   	1000000000	         0.2276 ns/op	       0 B/op	       0 allocs/op
 // BenchmarkStringToSliceByte-8   	1000000000	         0.2293 ns/op	       0 B/op	       0 allocs/op
 func BenchmarkSliceByteToString(b *testing.B) {
